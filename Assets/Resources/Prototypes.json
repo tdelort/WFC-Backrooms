@@ -1,0 +1,1624 @@
+{
+    "list": [
+        {
+            "mesh_name": "empty",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "S0",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "full",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "S4",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "L1",
+            "east": "S4",
+            "south": "S4",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "R1",
+            "east": "L1",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "R1",
+            "south": "L1",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "S4",
+            "south": "R1",
+            "west": "L1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "L1",
+            "east": "S4",
+            "south": "S4",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "L2",
+            "east": "S4",
+            "south": "S4",
+            "west": "R2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "R2",
+            "east": "L2",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "R2",
+            "south": "L2",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "S4",
+            "south": "R2",
+            "west": "L2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "L2",
+            "east": "S4",
+            "south": "S4",
+            "west": "R2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "L2",
+            "east": "S4",
+            "south": "S4",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "R1",
+            "east": "L2",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "R1",
+            "south": "L2",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "S4",
+            "south": "R1",
+            "west": "L2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "L2",
+            "east": "S4",
+            "south": "S4",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": true,
+            "north": "R2",
+            "east": "L1",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": true,
+            "north": "S4",
+            "east": "R2",
+            "south": "L1",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": true,
+            "north": "S4",
+            "east": "S4",
+            "south": "R2",
+            "west": "L1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": true,
+            "north": "L1",
+            "east": "S4",
+            "south": "S4",
+            "west": "R2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": true,
+            "north": "R2",
+            "east": "L1",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-3",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "L2",
+            "east": "S4",
+            "south": "S4",
+            "west": "R3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-3",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "R3",
+            "east": "L2",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-3",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "R3",
+            "south": "L2",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-3",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "S4",
+            "south": "R3",
+            "west": "L2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-3",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "L2",
+            "east": "S4",
+            "south": "S4",
+            "west": "R3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-3",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": true,
+            "north": "R2",
+            "east": "L3",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-3",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": true,
+            "north": "S4",
+            "east": "R2",
+            "south": "L3",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-3",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": true,
+            "north": "S4",
+            "east": "S4",
+            "south": "R2",
+            "west": "L3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-3",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": true,
+            "north": "L3",
+            "east": "S4",
+            "south": "S4",
+            "west": "R2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_2-3",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": true,
+            "north": "R2",
+            "east": "L3",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "L3",
+            "east": "S4",
+            "south": "S4",
+            "west": "R3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "R3",
+            "east": "L3",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "R3",
+            "south": "L3",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "S4",
+            "south": "R3",
+            "west": "L3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "L3",
+            "east": "S4",
+            "south": "S4",
+            "west": "R3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3-1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "L3",
+            "east": "S4",
+            "south": "S4",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3-1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "R1",
+            "east": "L3",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3-1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "R1",
+            "south": "L3",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3-1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "S4",
+            "south": "R1",
+            "west": "L3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3-1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "L3",
+            "east": "S4",
+            "south": "S4",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3-1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": true,
+            "north": "R3",
+            "east": "L1",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3-1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": true,
+            "north": "S4",
+            "east": "R3",
+            "south": "L1",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3-1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": true,
+            "north": "S4",
+            "east": "S4",
+            "south": "R3",
+            "west": "L1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3-1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": true,
+            "north": "L1",
+            "east": "S4",
+            "south": "S4",
+            "west": "R3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "inner_corner_3-1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": true,
+            "north": "R3",
+            "east": "L1",
+            "south": "S4",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L1",
+            "south": "R1",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "S0",
+            "south": "L1",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "R1",
+            "east": "S0",
+            "south": "S0",
+            "west": "L1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "L1",
+            "east": "R1",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L1",
+            "south": "R1",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L2",
+            "south": "R2",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "S0",
+            "south": "L2",
+            "west": "R2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "R2",
+            "east": "S0",
+            "south": "S0",
+            "west": "L2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "L2",
+            "east": "R2",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L2",
+            "south": "R2",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L1",
+            "south": "R2",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "S0",
+            "south": "L1",
+            "west": "R2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "R2",
+            "east": "S0",
+            "south": "S0",
+            "west": "L1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "L1",
+            "east": "R2",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L1",
+            "south": "R2",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": true,
+            "north": "S0",
+            "east": "S0",
+            "south": "L2",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": true,
+            "north": "R1",
+            "east": "S0",
+            "south": "S0",
+            "west": "L2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": true,
+            "north": "L2",
+            "east": "R1",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": true,
+            "north": "S0",
+            "east": "L2",
+            "south": "R1",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": true,
+            "north": "S0",
+            "east": "S0",
+            "south": "L2",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-3",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L3",
+            "south": "R2",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-3",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "S0",
+            "south": "L3",
+            "west": "R2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-3",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "R2",
+            "east": "S0",
+            "south": "S0",
+            "west": "L3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-3",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "L3",
+            "east": "R2",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-3",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L3",
+            "south": "R2",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-3",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": true,
+            "north": "S0",
+            "east": "S0",
+            "south": "L2",
+            "west": "R3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-3",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": true,
+            "north": "R3",
+            "east": "S0",
+            "south": "S0",
+            "west": "L2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-3",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": true,
+            "north": "L2",
+            "east": "R3",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-3",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": true,
+            "north": "S0",
+            "east": "L2",
+            "south": "R3",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_2-3",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": true,
+            "north": "S0",
+            "east": "S0",
+            "south": "L2",
+            "west": "R3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L3",
+            "south": "R3",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "S0",
+            "south": "L3",
+            "west": "R3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "R3",
+            "east": "S0",
+            "south": "S0",
+            "west": "L3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "L3",
+            "east": "R3",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L3",
+            "south": "R3",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3-1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L1",
+            "south": "R3",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3-1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "S0",
+            "south": "L1",
+            "west": "R3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3-1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "R3",
+            "east": "S0",
+            "south": "S0",
+            "west": "L1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3-1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "L1",
+            "east": "R3",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3-1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L1",
+            "south": "R3",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3-1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": true,
+            "north": "S0",
+            "east": "S0",
+            "south": "L3",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3-1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": true,
+            "north": "R1",
+            "east": "S0",
+            "south": "S0",
+            "west": "L3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3-1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": true,
+            "north": "L3",
+            "east": "R1",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3-1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": true,
+            "north": "S0",
+            "east": "L3",
+            "south": "R1",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "outer_corner_3-1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": true,
+            "north": "S0",
+            "east": "S0",
+            "south": "L3",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "pillar",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "S0",
+            "south": "S0",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_1",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "L1",
+            "east": "S4",
+            "south": "R1",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_1",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L1",
+            "south": "S4",
+            "west": "R1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_1",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "R1",
+            "east": "S0",
+            "south": "L1",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_1",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "R1",
+            "south": "S0",
+            "west": "L1",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_1",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "L1",
+            "east": "S4",
+            "south": "R1",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_2",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "L2",
+            "east": "S4",
+            "south": "R2",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_2",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L2",
+            "south": "S4",
+            "west": "R2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_2",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "R2",
+            "east": "S0",
+            "south": "L2",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_2",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "R2",
+            "south": "S0",
+            "west": "L2",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_2",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "L2",
+            "east": "S4",
+            "south": "R2",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_3",
+            "mesh_rotation": 0,
+            "mesh_is_xflipped": false,
+            "north": "L3",
+            "east": "S4",
+            "south": "R3",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_3",
+            "mesh_rotation": 1,
+            "mesh_is_xflipped": false,
+            "north": "S0",
+            "east": "L3",
+            "south": "S4",
+            "west": "R3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_3",
+            "mesh_rotation": 2,
+            "mesh_is_xflipped": false,
+            "north": "R3",
+            "east": "S0",
+            "south": "L3",
+            "west": "S4",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_3",
+            "mesh_rotation": 3,
+            "mesh_is_xflipped": false,
+            "north": "S4",
+            "east": "R3",
+            "south": "S0",
+            "west": "L3",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        },
+        {
+            "mesh_name": "wall_3",
+            "mesh_rotation": 4,
+            "mesh_is_xflipped": false,
+            "north": "L3",
+            "east": "S4",
+            "south": "R3",
+            "west": "S0",
+            "valid_neighbours": {
+                "north": [],
+                "east": [],
+                "south": [],
+                "west": []
+            }
+        }
+    ]
+}
