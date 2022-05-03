@@ -31,6 +31,18 @@ namespace WFC
             return socketToString[socket];
         }
 
+        static readonly Dictionary<string, Socket> stringToSocket = new Dictionary<string, Socket>()
+        {
+            {"S0", Socket.S0}, { "S1", Socket.S1 }, { "S2", Socket.S2 }, { "S3", Socket.S3 }, { "S4", Socket.S4 },
+            { "L0", Socket.L0 }, { "L1", Socket.L1 }, { "L2", Socket.L2 }, { "L3", Socket.L3 }, { "L4", Socket.L4 },
+            { "R0", Socket.R0 }, { "R1", Socket.R1 }, { "R2", Socket.R2 }, { "R3", Socket.R3 }, { "R4", Socket.R4 }
+        };
+
+        public static Socket StringToSocket(string str)
+        {
+            return stringToSocket[str];
+        }
+
         static readonly Dictionary<Socket, Socket> flippedSocket = new Dictionary<Socket, Socket>()
         {
             // Symetric ones
@@ -45,6 +57,22 @@ namespace WFC
             return flippedSocket[socket];
         }
 
+        //Compatibility between 2 sockets.
+        static readonly Dictionary<(Socket, Socket), bool> socketsCompatibility = new Dictionary<(Socket, Socket), bool>()
+        {
+            // Symetric ones
+            {(Socket.S0, Socket.S0), true}, {(Socket.S1, Socket.S1), true}, {(Socket.S2, Socket.S2), true}, {(Socket.S3, Socket.S3), true}, {(Socket.S4, Socket.S4), true},
+            //Flip L and R
+            {(Socket.L0, Socket.R0), true}, {(Socket.L1, Socket.R1), true}, {(Socket.L2, Socket.R2), true}, {(Socket.L3, Socket.R3), true}, {(Socket.L4, Socket.R4), true},
+            {(Socket.R0, Socket.L0), true}, {(Socket.R1, Socket.L1), true}, {(Socket.R2, Socket.L2), true}, {(Socket.R3, Socket.L3), true}, {(Socket.R4, Socket.L4), true},
+        };
+
+        public static bool IsCompatible(Socket socket1, Socket socket2)
+        {
+            bool exists = socketsCompatibility.TryGetValue((socket1, socket2), out bool result);
+            return exists && result;
+        }
+
         public GameObject moduleModel;
         public Socket North;
         public Socket East;
@@ -52,5 +80,6 @@ namespace WFC
         public Socket West;
         public bool rotate = true;
         public bool mirror = true;
+        public float probability = 1;
     }
 }

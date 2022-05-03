@@ -4,8 +4,7 @@ Shader "Custom/ModuleVisualisation"
     {
         _Color ("Color", Color) = (1,1,1,1)
         _MainTex ("Albedo (RGB)", 2D) = "white" {}
-        _Glossiness ("Smoothness", Range(0,1)) = 0.5
-        _Metallic ("Metallic", Range(0,1)) = 0.0
+        _CutHeight ("Cut Height", Range(0,10)) = 5.0
     }
     SubShader
     {
@@ -14,26 +13,26 @@ Shader "Custom/ModuleVisualisation"
 
         CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
-        #pragma surface surf SimpleUnlit
+        #pragma surface surf SimpleUnlit addshadow
 
         // Use shader model 3.0 target, to get nicer looking lighting
         #pragma target 3.0
 
+        fixed4 _Color;
         sampler2D _MainTex;
+        float _CutHeight;
 
         struct Input
         {
             float2 uv_MainTex;
             float3 worldNormal;
+            float3 worldPos;
         };
 
-        half _Glossiness;
-        half _Metallic;
-        fixed4 _Color;
 
         half4 LightingSimpleUnlit(SurfaceOutput s, half3 lightDir, half atten)
         {
-            return half4(s.Albedo, 1.0);
+            return half4(s.Albedo, s.Alpha);
         }
 
         void surf (Input IN, inout SurfaceOutput o)
@@ -42,7 +41,7 @@ Shader "Custom/ModuleVisualisation"
             fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
             o.Albedo = IN.worldNormal * 0.5 + 0.5;
             // Metallic and smoothness come from slider variables
-            o.Alpha = c.a;
+            clip(-(IN.worldPos.y - _CutHeight));
         }
         ENDCG
     }

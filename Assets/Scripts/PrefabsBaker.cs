@@ -15,11 +15,6 @@ namespace WFC
         [SerializeField] bool debugDisplayModules = false;
         [SerializeField] Transform modulesParent;
 
-        [System.Serializable]
-        struct Prototypes 
-        {
-            public List<Prototype> list;
-        }
 
         bool _prevDebugDisplayModules = false;
         void Update()
@@ -89,8 +84,76 @@ namespace WFC
 
             // TODO : 
             // For each Prototype object
+            for(int i = 0; i < prototypes.list.Count; i++)
+            {
                 // For each face
                     // Fill the list of valid neighbours
+                
+                Prototype p = prototypes.list[i];
+
+                // Init
+                p.valid_neighbours.north = new List<int>();
+                p.valid_neighbours.east = new List<int>();
+                p.valid_neighbours.south = new List<int>();
+                p.valid_neighbours.west = new List<int>();
+
+                // Set
+                for(int dir = 0; dir < 4; dir++)
+                {
+                    for(int j = 0; j < prototypes.list.Count; j++)
+                    {
+                        Prototype other = prototypes.list[j];
+                        string currentSocketStr;
+                        string otherSocketStr;
+
+                        switch (dir)
+                        {
+                            case 0 : // current : north / other : south
+                                currentSocketStr = p.north;
+                                otherSocketStr = other.south;
+                                break;
+                            case 1 : // current : east / other : west
+                                currentSocketStr = p.east;
+                                otherSocketStr = other.west;
+                                break;
+                            case 2 : // current : south / other : north
+                                currentSocketStr = p.south;
+                                otherSocketStr = other.north;
+                                break;
+                            case 3 : // current : west / other : east
+                                currentSocketStr = p.west;
+                                otherSocketStr = other.east;
+                                break;
+                            default :
+                                throw new System.Exception("Invalid direction");
+                        }
+
+                        if (ModulePreBakePrototype.IsCompatible(ModulePreBakePrototype.StringToSocket(currentSocketStr), ModulePreBakePrototype.StringToSocket(otherSocketStr)))
+                        {
+                            switch (dir)
+                            {
+                                case 0 :
+                                    p.valid_neighbours.north.Add(j);
+                                    break;
+                                case 1 :
+                                    p.valid_neighbours.east.Add(j);
+                                    break;
+                                case 2 :
+                                    p.valid_neighbours.south.Add(j);
+                                    break;
+                                case 3 :
+                                    p.valid_neighbours.west.Add(j);
+                                    break;
+                                default :
+                                    throw new System.Exception("Invalid direction");
+                            }
+                        }
+                    }
+                }
+
+                // Set
+                prototypes.list[i] = p;
+            }
 
             // Save the prototypes in Assets/Resources/Prototypes.json
             string bigJsonString = JsonUtility.ToJson(prototypes, true);
@@ -104,10 +167,11 @@ namespace WFC
             // Create a Prototype object
             Prototype proto = new Prototype();
 
-            // Fill the mesh_name, mesh_rotation, mesh_is_xflipped, north, east, south, west
+            // Fill the mesh_name, mesh_rotation, mesh_is_xflipped, probability, north, east, south, west
             proto.mesh_name = mpbp.moduleModel.name;
             proto.mesh_rotation = rotation;
             proto.mesh_is_xflipped = flip != 0;
+            proto.probability = mpbp.probability;
 
 
             // Gather original sockets
