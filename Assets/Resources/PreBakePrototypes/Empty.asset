@@ -19,4 +19,4 @@ MonoBehaviour:
   West: 0
   rotate: 0
   mirror: 0
-  probability: 10
+  probability: 50

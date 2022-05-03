@@ -11,8 +11,8 @@ namespace WFC
         [SerializeField] Transform modulesParent;
         [SerializeField, Range(0,1)] float timeStep = 0.1f;
 
-        static readonly int xGridSize = 10;
-        static readonly int yGridSize = 10;
+        static readonly int xGridSize = 32;
+        static readonly int yGridSize = 32;
         
         struct Slot
         {
@@ -32,11 +32,13 @@ namespace WFC
             allPrototypes = JsonUtility.FromJson<Prototypes>(json).list;
             InitializeAllSlots();
 
+            int it = 0;
             while(!IsCollapsed())
             {
                 Iterate();
-                if(timeStep != 0)
+                if(it % 100 == 0)
                     yield return new WaitForSeconds(timeStep);
+                it ++;
             }
         }
 
@@ -117,24 +119,32 @@ namespace WFC
 
             List<Prototype> possibilities = slots[coords.x,coords.y].possibilities;
 
-            float sumOfProbabilities = 0;
-            foreach(Prototype p in possibilities)
-                sumOfProbabilities += p.probability;
-
-            float random = Random.Range(0, sumOfProbabilities);
-            float current = 0;
             Prototype chosen = possibilities[0];
-            Debug.Log("Chosen : " + chosen.mesh_name);
-            foreach(Prototype p in possibilities)
+            if (possibilities.Count == 0)
             {
-                current += p.probability;
-                if(current >= random)
-                {
-                    chosen = p;
-                    break;
-                }
+                Debug.LogWarning("No possibilities for slot at " + coords);
             }
-            Debug.Log("Chosen after : " + chosen.mesh_name);
+            else
+            {
+                float sumOfProbabilities = 0;
+                foreach(Prototype p in possibilities)
+                    sumOfProbabilities += p.probability;
+
+                float random = Random.Range(0, sumOfProbabilities);
+                float current = 0;
+                Debug.Log("Chosen : " + chosen.mesh_name);
+                foreach(Prototype p in possibilities)
+                {
+                    current += p.probability;
+                    if(current >= random)
+                    {
+                        chosen = p;
+                        break;
+                    }
+                }
+                Debug.Log("Chosen after : " + chosen.mesh_name);
+            }
+
 
             // Apply the collapse
             slots[coords.x, coords.y].possibilities.Clear();

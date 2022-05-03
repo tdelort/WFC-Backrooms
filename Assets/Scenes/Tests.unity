@@ -277,7 +277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayModulePrefab: {fileID: 7619103525797095465, guid: 66ee7544553ad2344ab0cc63d175a085, type: 3}
   modulesParent: {fileID: 128711681}
-  timeStep: 0.001
+  timeStep: 0
 --- !u!4 &667747269
 Transform:
   m_ObjectHideFlags: 0
