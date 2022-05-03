@@ -58,7 +58,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _CutHeight: 2.78
+    - _CutHeight: 7.13
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
